@@ -1,0 +1,21 @@
+name: spendwise
+description: A polished offline personal finance tracker for portfolio demonstrations.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.3.0
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.5
+  intl: ^0.20.3
+  fl_chart: ^0.69.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
